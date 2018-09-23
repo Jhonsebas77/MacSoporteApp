@@ -1,17 +1,46 @@
 
 export default {
     container: {
-        alignItems: 'center',
-        margin: 10,
+        justifyContent: 'center',
+        padding: 10,
+        backgroundColor: '#fff'
+    },
+    btncontainer: {
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    containerService: {
+        backgroundColor: '#a8cf45',
         justifyContent: 'center'
     },
-    loading: {
-        width: '100%',
-        height: '100%'
+    titulo: {
+        fontSize: 28,
+        textAlign: 'left',
+        padding: 10,
+        color: '#FF0000'
     },
-    title: {
-        color: 'white',
-        fontSize: 30,
-        fontWeight: 'bold'
+    titulointerno: {
+        fontSize: 28,
+        textAlign: 'left',
+        padding: 10
+    },
+    parrafo: {
+        fontSize: 18,
+        textAlign: 'left',
+        padding: 15,
+        color: '#000'
+    },
+    parrafointerno: {
+        fontSize: 18,
+        textAlign: 'left',
+        padding: 20
+    },
+    buttonService: {
+        backgroundColor: '#3898EC',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 10,
+        width: 240,
+        height: 40
     }
 }

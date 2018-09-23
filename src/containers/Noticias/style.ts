@@ -1,17 +1,22 @@
 
 export default {
     container: {
-        alignItems: 'center',
-        margin: 10,
-        justifyContent: 'center'
+        flex: 1
     },
-    loading: {
-        width: '100%',
-        height: '100%'
+    cardContainer: {
+        padding: 5
     },
-    title: {
-        color: 'white',
-        fontSize: 30,
-        fontWeight: 'bold'
+    body: {
+        fontSize: 16,
+        textAlign: 'left',
+        padding: 5,
+        backgroundColor: '#fff'
+    },
+    header: {
+        fontSize: 28,
+        textAlign: 'center',
+        padding: 10,
+        color: '#3898EC',
+        backgroundColor: '#fff'
     }
 }

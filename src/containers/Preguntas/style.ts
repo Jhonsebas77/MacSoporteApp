@@ -1,17 +1,15 @@
 
 export default {
     container: {
-        alignItems: 'center',
-        margin: 10,
-        justifyContent: 'center'
+        flex: 1,
+        justifyContent: 'center',
+        padding: 10,
+        backgroundColor: '#000'
     },
-    loading: {
+    banner: {
         width: '100%',
-        height: '100%'
-    },
-    title: {
-        color: 'white',
-        fontSize: 30,
-        fontWeight: 'bold'
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 120
     }
 }
